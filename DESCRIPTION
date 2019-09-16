@@ -1,0 +1,20 @@
+Package: ggcorrr
+Type: Package
+Title: Another edition of Visualization of Correlation Matrix Using `ggplot2`
+Version: 0.5.0
+Author: c(
+    person("Houyun", role = c("aut", "cre"), email = "houyunhuang@163.com"))
+Description: The 'ggcorrr' package can be used to visualize easily a
+    correlation matrix using 'ggplot2'. It supports all the functions 
+    in the corrplot package.
+License: GPL-2
+LazyData: TRUE
+Encoding: UTF-8
+Depends:
+    ggplot2 (>= 3.0.0), R (>= 3.3.0)
+Imports:
+    stats,
+    scales
+Suggests:
+    knitr
+RoxygenNote: 6.1.1
